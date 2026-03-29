@@ -1,0 +1,5 @@
+[
+  { "id": 1, "tipo": "Campo", "precio": 15000 },
+  { "id": 2, "tipo": "Platea", "precio": 22000 },
+  { "id": 3, "tipo": "VIP", "precio": 30000 }
+]

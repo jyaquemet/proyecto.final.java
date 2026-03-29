@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto Final - Simulador</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- Librería SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Simulador de Compra de Entradas</h1>
+        <p>Autor: Joaquin Yaquemet</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Entradas Disponibles</h2>
+            <div id="contenedorEntradas"></div>
+        </section>
+
+        <section>
+            <h2>Carrito</h2>
+            <div id="contenedorCarrito"></div>
+            <h3 id="totalCompra">Total: $0</h3>
+
+            <button id="vaciarCarrito">Vaciar Carrito</button>
+            <button id="finalizarCompra">Finalizar Compra</button>
+        </section>
+
+    </main>
+
+    <script src="js/simulador.js"></script>
+</body>
+</html>
